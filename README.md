@@ -7,3 +7,22 @@ https://stat135.berkeley.edu/spring-2026/lectures/lecture-40.html?utm_source=cha
 <img width="396" height="171" alt="image" src="https://github.com/user-attachments/assets/f9b16e1d-29e1-482b-a2ef-1a5b8099f142" />
 
 <img width="890" height="236" alt="image" src="https://github.com/user-attachments/assets/ca827f44-cbf6-4476-a505-fb19d2b46d85" />
+
+# x and Y in Linear Regression
+
+- **x** = predictor (independent variable)
+- **Y** = response (dependent variable)
+
+Example:
+
+| x | Y |
+|---|---|
+| 1 | 3 |
+| 2 | 5 |
+| 3 | 7 |
+
+In the C# dictionary:
+
+```text
+Key   → x
+Value → Y
