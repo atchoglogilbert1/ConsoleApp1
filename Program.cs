@@ -7,6 +7,8 @@ using System.Runtime.InteropServices;
 class Program
 {
 
+    // function to convert csv data -> dictionary<int,int>
+
     public static Dictionary<int, int> Read (String filename, bool log = false)
     {
 
@@ -33,11 +35,27 @@ class Program
         }
     }
 
+    public static double intercept(Dictionary<int, int> data)
+    {
+
+        
+    }
+
+    /// Finds the slope.
+    public static double slope(Dictionary<int, int> data)
+    {
+
+
+    }
+
 
     public static void Main(string[] args)
     {
         const string fileName = "data.csv";
         Dictionary<int,int> data = Read (fileName, false);
+
+        
+
 
 
          
